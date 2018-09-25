@@ -14,7 +14,10 @@ import rootReducer from './rootReducer'
 export const history = createHistory()
 
 const epicMiddleware = createEpicMiddleware({
-  dependencies: { getJSON: ajax.getJSON, post: ajax.post },
+  dependencies: {
+    getJSON: ajax.getJSON,
+    post: ajax.post,
+  },
 })
 
 // Build the middleware for intercepting and dispatching navigation actions
