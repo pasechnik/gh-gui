@@ -1,6 +1,6 @@
 # gh-gui 
 
-create-react-app based SPA application for gor github api
+create-react-app based SPA application for github api
  
 In order to start the App please run 
 
